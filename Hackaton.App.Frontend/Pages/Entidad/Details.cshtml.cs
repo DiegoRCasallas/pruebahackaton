@@ -12,7 +12,7 @@ namespace Hackaton.App.Frontend.Pages
     public class DetailsEntidadModel : PageModel
     {
         private readonly RepositorioEntidades repositorioEntidades;
-        public Entidades Entidad {get;set;}
+        public Entidad Entidad {get;set;}
  
         public DetailsEntidadModel(RepositorioEntidades repositorioEntidades)
         {

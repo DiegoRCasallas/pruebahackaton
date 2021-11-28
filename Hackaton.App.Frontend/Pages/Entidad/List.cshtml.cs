@@ -13,9 +13,9 @@ namespace Hackaton.App.Frontend.Pages
     public class ListEntidadModel: PageModel
     {
         [BindProperty]
-        public Entidades entidad {get;set;}
+        public Entidad Entidad {get;set;}
         private readonly RepositorioEntidades repositorioEntidades;
-        public IEnumerable<Entidades> Entidades {get;set;}
+        public IEnumerable<Entidad> Entidades {get;set;}
  
         public ListEntidadModel(RepositorioEntidades repositorioEntidades)
         {
@@ -29,9 +29,9 @@ namespace Hackaton.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
-            if(entidad.id>0)
+            if(Entidad.id>0)
             {
-             repositorioEntidades.Delete(entidad.id);
+             repositorioEntidades.Delete(Entidad.id);
             }
 
             return RedirectToPage("./List");

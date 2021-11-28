@@ -7,17 +7,24 @@ namespace Hackaton.App.Persistencia.AppRepositorios
 {
     public class RepositorioEntidades
     {
+        List<Entidad> Entidad;
 
-        List<Entidades> entidades;
+        
         private readonly AppContext _appContext = new AppContext();
 
-        public IEnumerable<Entidades> GetAll()
+        public IEnumerable<Entidad> GetAll()
         {
             
-            return _appContext.Entidades;// retorna la informacion que se encuentra en Entidades(base de datos)
+            return _appContext.Entidades;// retorna la informacion que se encuentra en Entidad(base de datos)
         }
+        public Entidad GetEntidadWithId(int id)
+        {
+           
+           return _appContext.Entidades.Find(id); 
+        }
+
         
-        public Entidades Create(Entidades newEntidad)
+        public Entidad Create(Entidad newEntidad)
         {
  
         var addEntidad = _appContext.Entidades.Add(newEntidad);
@@ -25,13 +32,9 @@ namespace Hackaton.App.Persistencia.AppRepositorios
         return addEntidad.Entity;
         }
         
-        public Entidades GetEntidadWithId(int id)
-        {
-           
-           return _appContext.Entidades.Find(id); 
-        }
+        
 
-        public Entidades Update(Entidades newEntidad)
+        public Entidad Update(Entidad newEntidad)
         {
             var entidad = _appContext.Entidades.Find(newEntidad.id);
             if(entidad != null)

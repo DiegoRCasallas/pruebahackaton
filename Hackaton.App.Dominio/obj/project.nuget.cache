@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "v8be+KdMEBxej2/yQ9bfEb1MmNJs2UB31SgN7ZdbXSS0CVEWlCbQSU/unoVzy8JV1SZg+fHF5wNTDOLhsSBr3Q==",
+  "dgSpecHash": "qtWa4SqcRp25Iz8lP9yOGpKBmBcd5HXKPwBh3FecS+GNMfKCfLFAklx0vhrJcJKzaq/U9KIbfMszDNv9wDvsjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diego\\Desktop\\Ganador\\Hackaton.App\\Hackaton.App.Dominio\\Hackaton.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Efrain\\Documents\\pruebahackaton\\Hackaton.App.Dominio\\Hackaton.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Diego\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Efrain\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Efrain\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Efrain\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

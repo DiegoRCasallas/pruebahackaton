@@ -13,7 +13,7 @@ namespace Hackaton.App.Frontend.Pages
     {
         private readonly RepositorioEntidades repositorioEntidades;
         [BindProperty]
-        public Entidades Entidad {get;set;}
+        public Entidad Entidad {get;set;}
         
         public EditEntidadModel(RepositorioEntidades repositorioEntidades)
         {    

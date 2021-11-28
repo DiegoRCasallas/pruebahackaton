@@ -12,29 +12,34 @@ namespace Hackaton.App.Frontend.Pages
 {
     public class FormEntidadModel : PageModel
     {
+
+
+          
         private readonly RepositorioEntidades repositorioEntidades;
         [BindProperty]
-        public Entidades Entidad {get;set;}
- 
-        public FormEntidadModel(RepositorioEntidades repositorioEntidades)
+        public Entidad Entidad { get; set; }
+
+
+        public FormEntidadModel(RepositorioEntidades repositorioEntidades )
         {
-            this.repositorioEntidades=repositorioEntidades;
+            this.repositorioEntidades = repositorioEntidades;
+          
         }
- 
+
         public void OnGet()
         {
+        
 
         }
- 
-        public IActionResult OnPost()
+
+        public IActionResult OnPost( )
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
-            }            
-            Entidad = repositorioEntidades.Create(Entidad);            
+            }
+            Entidad = repositorioEntidades.Create(Entidad );
             return RedirectToPage("./List");
         }
     }
 }
-        

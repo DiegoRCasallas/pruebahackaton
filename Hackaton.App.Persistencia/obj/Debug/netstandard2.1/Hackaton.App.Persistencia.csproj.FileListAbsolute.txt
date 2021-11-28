@@ -10,3 +10,15 @@ C:\Users\Diego\Desktop\Ganador\Hackaton.App\Hackaton.App.Persistencia\bin\Debug\
 C:\Users\Diego\Desktop\Ganador\Hackaton.App\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csproj.CopyComplete
 C:\Users\Diego\Desktop\Ganador\Hackaton.App\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.dll
 C:\Users\Diego\Desktop\Ganador\Hackaton.App\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.pdb
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.deps.json
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.dll
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.pdb
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Dominio.dll
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Dominio.pdb
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.AssemblyInfo.cs
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csproj.CopyComplete
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.dll
+C:\Users\Efrain\Documents\pruebahackaton\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.pdb
