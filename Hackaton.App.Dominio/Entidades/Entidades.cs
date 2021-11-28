@@ -8,8 +8,11 @@ namespace Hackaton.App.Dominio{
         public string ciudad{ get; set; }
         public string telefono { get; set; }
         public string webpage {get; set;}
-        public Sectores sector {get; set;}
-        public Servicios servicio {get; set;}
+         public string sector {get; set;}
+        public string servicio {get; set;}
+
+        //public Sectores sector {get; set;}
+        //public Servicios servicio {get; set;}
 
     }
  

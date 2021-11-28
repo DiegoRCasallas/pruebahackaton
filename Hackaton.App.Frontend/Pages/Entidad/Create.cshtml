@@ -1,0 +1,62 @@
+@page
+@model Hackaton.App.Frontend.Pages.FormEntidadModel
+@{
+  var entidad = Model.Entidad;
+}
+
+
+<div class="text-center">
+
+  <form method=”POST”>
+    <label for="razon_social" class="form-label">razon_social:</label>
+    <input type="text" class="form-control" id="razon_social" placeholder="razon_social"
+      asp-for="@entidad.razon_social" Required>
+
+    <label for="nit" class="form-label">nit:</label>
+    <input type="number" class="form-control" id="nit" placeholder="nit" asp-for="@entidad.nit"Required>
+
+    <label for="direccion" class="form-label">Direccion: </label>
+    <input type="text" class="form-control" id="direccion" placeholder="direccion" asp-for="@entidad.direccion"Required>
+
+    <label for="ciudad" class="form-label">Ciudad:</label>
+    <input type="text" class="form-control" id="ciudad" placeholder="ciudad" asp-for="@entidad.ciudad"Required>
+
+    <label for="telefono" class="form-label">Telefono:</label>
+    <input type="text" class="form-control" id="telefono" placeholder="telefono" asp-for="@entidad.telefono"Required>
+
+    <label for="webpage" class="form-label">webpage:</label>
+    <input type="text" class="form-control" id="webpage" placeholder="pagina web" asp-for="@entidad.webpage">
+
+    <label for="sector" class="form-label">sector:</label>
+   <input type="text" class="form-control" id="sector" placeholder="sector" asp-for="@entidad.sector"Required>
+     @*<input list="sector" class="form-control" asp-for="@entidad.sector"Required>
+    <datalist id="sector">
+            <option value="Publico"></option>
+            <option value="Privado"></option>
+            <option value="Sin animo de lucro"></option>
+            <option value="No gubernamental"></option>
+            <option value="Otro"></option>
+          
+        </datalist>*@
+
+
+    <label for="servicio" class="form-label">servicio:</label>
+    <input type="text" class="form-control" id="servicio" placeholder="servicio" asp-for="@entidad.servicio"Required>
+    @*<input list="servicio" class="form-control" asp-for="@entidad.servicio"Required>
+    <datalist id="servicio">
+            <option value="Salud"></option>
+            <option value="Juridicos"></option>
+            <option value="Viveres"></option>
+            <option value="Comida Preparada"></option>
+            <option value="Empleo"></option>
+            <option value="Alojamiento Temopral"></option>
+            <option value="Alojamiento Permanente"></option>
+            <option value="Educacion"></option>
+            <option value="Otros"></option>
+        </datalist>
+*@
+
+    <hr>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</div>

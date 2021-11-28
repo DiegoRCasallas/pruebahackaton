@@ -1,0 +1,38 @@
+@page
+@model Hackaton.App.Frontend.Pages.EditEntidadModel
+@{
+    var entidad = Model.Entidad;
+}
+<div class="text-center">
+    <form method="post">
+        <label for="id" class="form-label">Id:</label>
+        <input type="number" class="form-control" id="id" name="id" placeholder="Id" asp-for="@entidad.id">
+        <label for="razon_social" class="form-label">razon_social:</label>
+        <input type="text" class="form-control" id="razon_social" name="razon_social" placeholder="razon_social" asp-for="@entidad.razon_social">
+        <label for="nit" class="form-label">nit:</label>
+        <input type="number" class="form-control" id="nit" name="nit" placeholder="nit"
+            asp-for="@entidad.nit">
+        <label for="direccion" class="form-label">Direccion: </label>
+        <input type="text" class="form-control" id="direccion" name="direccion"
+            placeholder="Direccion" asp-for="@entidad.direccion">
+        <label for="ciudad" class="form-label">ciudad:</label>
+        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="ciudad"
+            asp-for="@entidad.ciudad">
+        <label for="telefono" class="form-label">telefono:</label>
+        <input type="text" class="form-control" id="capacidad_maxima" name="telefono"
+            placeholder="telefono" asp-for="@entidad.telefono">
+            <label for="webpage" class="form-label">webpage:</label>
+        <input type="text" class="form-control" id="capacidad_maxima" name="webpage"
+            placeholder="webpage" asp-for="@entidad.webpage">
+            <label for="sector" class="form-label">sector:</label>
+        <input type="text" class="form-control" id="capacidad_maxima" name="sector"
+            placeholder="sector" asp-for="@entidad.sector">
+            <label for="servicio" class="form-label">servicio:</label>
+        <input type="text" class="form-control" id="capacidad_maxima" name="servicio"
+            placeholder="servicio" asp-for="@entidad.servicio">
+            
+
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>
